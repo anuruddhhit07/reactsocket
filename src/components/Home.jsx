@@ -27,3 +27,4 @@ const Home = ({socket}) => {
     </form>
   )
 }
+export default Home

@@ -25,6 +25,7 @@ socketIO.on('connection', (socket) => {
     socket.on("newUser", data => {
       users.push(data)
       socketIO.emit("newUserResponse", users)
+      console.log(users)
     })
  
     socket.on('disconnect', () => {

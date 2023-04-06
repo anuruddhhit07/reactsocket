@@ -38,7 +38,7 @@
     "eject": "react-scripts eject",
     "server": "nodemon server/server.js",
     "client": "node src/index",
-     "dev": "concurrently \"npm run server\"  \"npm run client\""
+     "dev": "concurrently \"npm run server\"  \"npm start\""
   },
   "browserslist": [
     ">0.2%",
